@@ -1,0 +1,1 @@
+ln -s heos_custom/custom_components/heos/ heos
