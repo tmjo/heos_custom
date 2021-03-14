@@ -1,0 +1,32 @@
+sign_in:
+  description: Sign the controller in to a HEOS account.
+  fields:
+    username:
+      description: The username or email of the HEOS account. [Required]
+      example: "example@example.com"
+    password:
+      description: The password of the HEOS account. [Required]
+      example: "password"
+
+sign_out:
+  description: Sign the controller out of the HEOS account.
+
+groupinfo:
+  description: Info on HEOS player and group to log (for debugging)
+
+join:
+  description: HEOS grouping - join member to master
+  fields:
+    master:
+      description: The group master. [Required]
+      example: "media_player.heos_player1"
+    entity_id:
+      description: The group member(s) to be included in group. [Optional]
+      example: "media_player.heos_player2"
+
+unjoin:
+  description: HEOS grouping - unjoin
+  fields:
+    entity_id:
+      description: The group member(s) to be removed from group. [Optional]
+      example: "media_player.heos_player2"
