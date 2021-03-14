@@ -1,5 +1,6 @@
 {
   "name": "Custom HEOS integration",
-  "domains": ["media_player"],
+  "domains": ["media_player", "heos"],
   "homeassistant": "2021.1.1",
+  "render_readme": true,
 }
