@@ -1,7 +1,8 @@
 {
   "domain": "heos",
-  "name": "Denon HEOS",
+  "name": "Denon HEOS (custom)",
   "config_flow": true,
+  "version": "2021.3.1",
   "documentation": "https://www.home-assistant.io/integrations/heos",
   "requirements": ["pyheos==0.7.2"],
   "ssdp": [
@@ -9,5 +10,5 @@
       "st": "urn:schemas-denon-com:device:ACT-Denon:1"
     }
   ],
-  "codeowners": ["@andrewsayre"]
+  "codeowners": ["@andrewsayre", "@tmjo"]
 }
