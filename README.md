@@ -25,7 +25,8 @@ The installation is not - and never will be - included in HACS as a default repo
 7. Continue to the Configuration-section.
 
 
-### Manual1. Navigate to you home assistant configuration folder.
+### Manual
+1. Navigate to you home assistant configuration folder.
 2. Create a `custom_components` folder of it does not already exist, then navigate into it.
 3. Download the folder `heos` from this repo and add it into your custom_components folder.
 4. Restart Home Assistant (a warning should be shown in log saying you're using a custom integration).
