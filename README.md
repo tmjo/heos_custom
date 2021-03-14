@@ -2,7 +2,7 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs) ![Maintenance](https://img.shields.io/maintenance/yes/2021.svg)
 
-The official integration for [Denon HEOS](https://www.home-assistant.io/integrations/heos/) in [Home Assistant](https://www.home-assistant.io/) unfortunately lacks the grouping feature. Work is ongoing to add such features to the official integration, but due to some architectual discussions and the time it takes to conclude those, this custom integration allows HEOS-users to start grouping already today. Once this is implemented in the official integration, this custom integration will probably cease to exist. Follow the progress on official work (by others) [here](https://github.com/home-assistant/architecture/issues/364) and [here](https://github.com/home-assistant/core/pull/32568).
+The official integration for [Denon HEOS](https://www.home-assistant.io/integrations/heos/) in [Home Assistant](https://www.home-assistant.io/) unfortunately lacks the grouping feature. Work is ongoing to add such features to the official integration, but due to some architectual discussions and the time it takes to conclude those, this custom integration allows HEOS-users to start grouping already today. Once this is implemented in the official integration, this custom integration will probably cease to exist.
 
 The grouping feature is available as service calls **join** and **unjoin** but for the best user experience I recommend using the amazing [mini-media-card](https://github.com/kalkih/mini-media-player) which has the grouping feature working from UI/Lovelace.
 
@@ -25,8 +25,7 @@ The installation is not - and never will be - included in HACS as a default repo
 7. Continue to the Configuration-section.
 
 
-### Manual
-1. Navigate to you home assistant configuration folder.
+### Manual1. Navigate to you home assistant configuration folder.
 2. Create a `custom_components` folder of it does not already exist, then navigate into it.
 3. Download the folder `heos` from this repo and add it into your custom_components folder.
 4. Restart Home Assistant (a warning should be shown in log saying you're using a custom integration).
@@ -49,3 +48,10 @@ Configuration is done through UI/Lovelace. In Home Assistant, click on Configura
 This custom integration should work the same way as the [official integration](https://www.home-assistant.io/integrations/heos/) but has added a grouping feature to enable you to group you speakers - just like you can do it in the HEOS app on you mobile or tablet.
 
 Either use the service calls **join** and **unjoin**, and be sure to check out the amazing [mini-media-card](https://github.com/kalkih/mini-media-player) which has the grouping feature working from UI/Lovelace. With that card you can control grouping easily from your UI.
+
+## Issues and development
+Please report issues on github. Keep in mind that this is a temporary fix while waiting for a perfect official integration, so minor stuff should be expected.
+
+If you're a pro, please consider to direct your contributions towards the official integration as that would be the best solution for all. Follow the progress on official work (by others) [here](https://github.com/home-assistant/architecture/issues/364) and [here](https://github.com/home-assistant/core/pull/32568).
+
+Feel free to propose PRs for improvements to this custom workaround too, or other features we could include.
