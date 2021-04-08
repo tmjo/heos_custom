@@ -387,8 +387,11 @@ class GroupManager:
 
     def entity_id_from_player_id(self, playerid):  # group
         for device in self._hass.data[MEDIA_PLAYER_DOMAIN].entities:
-            if playerid == device.player_id:
-                return device.entity_id
+            try:
+                if playerid == device.player_id:
+                    return device.entity_id
+            except AttributeError as e:
+                pass
         return None
 
     def get_groupid(self, player):

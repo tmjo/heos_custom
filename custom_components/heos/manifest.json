@@ -2,7 +2,7 @@
   "domain": "heos",
   "name": "Denon HEOS (custom)",
   "config_flow": true,
-  "version": "2021.3.2",
+  "version": "2021.4.1",
   "documentation": "https://github.com/tmjo/heos_custom",
   "issue_tracker": "https://github.com/tmjo/heos_custom/issues",
     "requirements": ["pyheos==0.7.2"],
