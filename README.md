@@ -2,6 +2,10 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs) ![Maintenance](https://img.shields.io/maintenance/yes/2021.svg)
 
+**UPDATE January 2022:** The official integration [Denon HEOS](https://www.home-assistant.io/integrations/heos/) had grouping features implemented as of Home Asssitant version 2021.12 and this custom integration should not be necessary anymore. It will be deprecated after a time of testing. OBS! If using the mini-media-player card for grouping, note that platform must be changed from 'heos' to 'media_player' for the speaker_group setting (see [here](https://community.home-assistant.io/t/heos-group-support/126501/105?u=tormagj)).
+
+--
+
 The official integration for [Denon HEOS](https://www.home-assistant.io/integrations/heos/) in [Home Assistant](https://www.home-assistant.io/) unfortunately lacks the grouping feature. Work is ongoing to add such features to the official integration, but due to some architectual discussions and the time it takes to conclude those, this custom integration allows HEOS-users to start grouping already today. Once this is implemented in the official integration, this custom integration will probably cease to exist.
 
 The grouping feature is available as service calls **join** and **unjoin** but for the best user experience I recommend using the amazing [mini-media-card](https://github.com/kalkih/mini-media-player) which has the grouping feature working from UI/Lovelace.
