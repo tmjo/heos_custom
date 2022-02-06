@@ -64,7 +64,7 @@ async def async_setup_entry(hass: HomeAssistantType, entry: ConfigEntry):
     """Initialize config entry which represents the HEOS controller."""
     # Custom component warning January 2022
     _LOGGER.warning(
-        "Grouping support for HEOS was added to the official integration in version 2021.12 and there is no reason for using the custom integration you have installed. If you are using the mini-media-player card, remember to change card config platform from heos to media_player for grouping to work. This custom integration may exist for a while for testing other features such as media browsing and similar, feel free to continue using it."
+        "Grouping support for HEOS was added to the official integration in version 2021.12 and there is no longer any reason for using the custom integration you have installed. If you are using the mini-media-player card, remember to change card config platform from heos to media_player for grouping to work. This custom integration may exist for a while for testing other features such as media browsing and similar, feel free to continue using it."
     )
 
     # For backwards compat
