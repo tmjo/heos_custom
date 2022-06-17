@@ -1,6 +1,6 @@
 # Custom improvement of the offial HA integration for Denon HEOS
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs) ![Maintenance](https://img.shields.io/maintenance/yes/2021.svg)
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration) ![Maintenance](https://img.shields.io/maintenance/yes/2021.svg)
 
 **UPDATE January 2022:** The official integration [Denon HEOS](https://www.home-assistant.io/integrations/heos/) had grouping features implemented as of Home Asssitant version 2021.12 and this custom integration should not be necessary anymore. It may be deprecated after a time of testing. OBS! If using the mini-media-player card for grouping, note that platform must be changed from 'heos' to 'media_player' for the speaker_group setting (see [here](https://community.home-assistant.io/t/heos-group-support/126501/105?u=tormagj)). Feel free to continue using the custom integration, it may be used for testing other features like media browsing and similar.
 
